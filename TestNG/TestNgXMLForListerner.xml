@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Listerner Example">
+    <listeners>
+        <listener class-name="ListernsDemo"></listener>
+    </listeners>
+    <test name="Send Parameter for Browser to SendArguAboutBrowserFromXML file">
+        <classes>
+            <class name="GroupDemo2"></class>
+        </classes>
+    </test>
+</suite>
+
+        <!--This XML file will run only for GroupDemo2 class For Listeners purpose -->

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Send Parameters for Browser">
+    <listeners><listener class-name="ScreenShotInTestNG.Listerners"></listener></listeners>
+    <test name="Send Parameter for Browser to SendArguAboutBrowserFromXML file">
+        <classes>
+            <class name="ScreenShotInTestNG.LaunchWebsite"></class>
+            <class name="ScreenShotInTestNG.ScreenShotOnFailure"></class>
+        </classes>
+    </test>
+</suite>
+
+        <!--This XML file will run only Registration class from only GroupTest class -->
