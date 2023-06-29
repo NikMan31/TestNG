@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Listerner Example">
-    <listeners>
-        <listener class-name="ListernsDemo"></listener>
-    </listeners>
+<suite name="Argument Passing">
+    <parameter name="browser" value="chrome"/>
     <test name="Send Parameter for Browser to SendArguAboutBrowserFromXML file">
         <classes>
-            <class name="GroupDemo2"></class>
+            <class name="SendArguAboutBrowserFromXML"/>
         </classes>
     </test>
 </suite>
