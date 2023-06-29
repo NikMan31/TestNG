@@ -1,4 +1,4 @@
-//:isterners means, Aya tame avo calss defined karo cho with method, aa method particular action aa execute thase
+//:Listerners means, Aya tame avo calss defined karo cho with method, aa method particular action aa execute thase
 //Ex, AA Class ma onTestStart() method che aa jyare game te class na @Test execute thase atle pella aa run thase
 //Ex, Me aa ListernsDemo ne GroupDemo2 sathe configure karya (TestNgXMLForListerners) ma, means when each @test from GroupDemo2 will be execute before that This's Listerners Class OntestStart will run
 // Same like that, From GroupDemo2 any @Test will be failed at that time Listerner's Class @onTestFailure will be execute

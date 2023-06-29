@@ -17,6 +17,7 @@ public class Annotation2 {
         System.out.println("Successfully disconnected from DB");
     }
 
+    //There is one more importanant annotation is enable means you keep enable=true then that testcase will run but if you keep enable=flase then that test will skipped
     @AfterTest //@AfterTest execute after all the@Test means It will work only once after all the @Test
     public  void Logout(){
         System.out.println("Successfully logout");
